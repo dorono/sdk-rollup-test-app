@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "sdk-rollup-test-lib": "github:dorono/sdk-rollup-test-lib"
   },
   "scripts": {
     "start": "react-scripts start",

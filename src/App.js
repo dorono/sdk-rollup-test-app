@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import {myNameIs, iLike} from 'sdk-rollup-test-lib';
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
+    console.log(`${myNameIs('Doron')} and ${iLike('jazz music!')}`);
+
     return (
       <div className="App">
         <header className="App-header">
@@ -11,14 +14,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <h1>{`${myNameIs('Doron')} and ${iLike('jazz music!')}`}</h1>
         </header>
       </div>
     );
